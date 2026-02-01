@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog & Article - Foodland</title>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/responsive/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="">
+     <!-- NavBar Section Start -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top bg-body-white glass-navbar"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img class="logoImg" src="/images/home/logo.svg" alt="Logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/recipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about-us.html">About us</a>
+              </li>
+            </ul>
+             <div class="nav-icon">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!-- NavBar Section End -->
+
+      <!-- Blog Hero Section Start -->
+      <section class="blog-hero-section">
+        <div class="blog-hero-container">
+          <h1 class="blog-hero-title">Blog & Article</h1>
+          <p class="blog-hero-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          </p>
+          <div class="blog-search-container">
+            <form class="blog-search-form">
+              <input 
+                type="text" 
+                class="blog-search-input" 
+                placeholder="Search article, news or recipe..." 
+              />
+              <button type="submit" class="blog-search-btn">Search</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Blog Hero Section End -->
+
+      <!-- Blog Articles Section Start -->
+      <section class="blog-articles-section">
+        <div class="blog-content-grid">
+          <!-- Left Column - Articles -->
+          <div class="blog-articles-column">
+            <!-- Article 1 -->
+            <article class="blog-article-card"
+              data-title="Crochet Projects for Noodle Lovers"
+              data-image="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&h=600&fit=crop"
+              data-author="Wade Warren"
+              data-avatar="https://i.pravatar.cc/60?img=1"
+              data-date="12 November 2021"
+              data-desc="Discover creative ways to combine your love for crafting with delicious noodle recipes. This unique guide explores how traditional crochet patterns can inspire beautiful food presentations and table settings for your favorite pasta dishes.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop" alt="Crochet Projects for Noodle Lovers" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">Crochet Projects for Noodle Lovers</h3>
+                <p class="article-description">
+                  Discover creative ways to combine your love for crafting with delicious noodle recipes. This unique guide explores how traditional crochet patterns can inspire beautiful food presentations.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=1" alt="Wade Warren" class="author-avatar-small" />
+                    <span class="author-name-small">Wade Warren</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="blog-article-card"
+              data-title="10 Vegetarian Recipes To Eat This Month"
+              data-image="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&h=600&fit=crop"
+              data-author="Robert Fox"
+              data-avatar="https://i.pravatar.cc/60?img=2"
+              data-date="12 November 2021"
+              data-desc="Explore a curated collection of seasonal vegetarian dishes that celebrate fresh, local ingredients. From hearty soups to vibrant salads, these recipes will transform your plant-based cooking routine with bold flavors and nutritious combinations.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" alt="10 Vegetarian Recipes To Eat This Month" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">10 Vegetarian Recipes To Eat This Month</h3>
+                <p class="article-description">
+                  Explore a curated collection of seasonal vegetarian dishes that celebrate fresh, local ingredients. From hearty soups to vibrant salads, these recipes will transform your plant-based cooking.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=2" alt="Robert Fox" class="author-avatar-small" />
+                    <span class="author-name-small">Robert Fox</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="blog-article-card"
+              data-title="Full Guide to Becoming a Professional Chef"
+              data-image="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1200&h=600&fit=crop"
+              data-author="Dianne Russell"
+              data-avatar="https://i.pravatar.cc/60?img=3"
+              data-date="12 November 2021"
+              data-desc="Learn the essential steps, skills, and mindset needed to transition from home cooking to professional culinary arts. This comprehensive guide covers culinary school options, apprenticeships, kitchen hierarchy, and the dedication required to succeed in the competitive food industry.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400&h=300&fit=crop" alt="Full Guide to Becoming a Professional Chef" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">Full Guide to Becoming a Professional Chef</h3>
+                <p class="article-description">
+                  Learn the essential steps, skills, and mindset needed to transition from home cooking to professional culinary arts. This comprehensive guide covers everything from culinary school to kitchen hierarchy.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=3" alt="Dianne Russell" class="author-avatar-small" />
+                    <span class="author-name-small">Dianne Russell</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="blog-article-card"
+              data-title="Simple & Delicious Vegetarian Lasagna"
+              data-image="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&h=600&fit=crop"
+              data-author="Leslie Alexander"
+              data-avatar="https://i.pravatar.cc/60?img=4"
+              data-date="12 November 2021"
+              data-desc="Master the art of creating layers of flavor with this foolproof vegetarian lasagna recipe. Using fresh herbs, seasonal vegetables, and three types of cheese, this dish proves that meatless meals can be incredibly satisfying and crowd-pleasing for any occasion.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" alt="Simple & Delicious Vegetarian Lasagna" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">Simple & Delicious Vegetarian Lasagna</h3>
+                <p class="article-description">
+                  Master the art of creating layers of flavor with this foolproof vegetarian lasagna recipe. Using fresh herbs, seasonal vegetables, and three types of cheese for incredible satisfaction.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=4" alt="Leslie Alexander" class="author-avatar-small" />
+                    <span class="author-name-small">Leslie Alexander</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="blog-article-card"
+              data-title="Plantain and Pinto Stew with Aji Verde"
+              data-image="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=1200&h=600&fit=crop"
+              data-author="Courtney Henry"
+              data-avatar="https://i.pravatar.cc/60?img=5"
+              data-date="12 November 2021"
+              data-desc="Experience the vibrant flavors of Latin American cuisine with this hearty plantain and pinto bean stew. Topped with fresh aji verde sauce, this comforting dish combines sweet plantains, protein-rich beans, and aromatic spices for a satisfying meal that celebrates traditional cooking methods.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop" alt="Plantain and Pinto Stew with Aji Verde" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">Plantain and Pinto Stew with Aji Verde</h3>
+                <p class="article-description">
+                  Experience the vibrant flavors of Latin American cuisine with this hearty plantain and pinto bean stew. Topped with fresh aji verde sauce for an authentic taste experience.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=5" alt="Courtney Henry" class="author-avatar-small" />
+                    <span class="author-name-small">Courtney Henry</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Article 6 -->
+            <article class="blog-article-card"
+              data-title="We're Hiring a Communications Assistant!"
+              data-image="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&h=600&fit=crop"
+              data-author="Albert Flores"
+              data-avatar="https://i.pravatar.cc/60?img=6"
+              data-date="12 November 2021"
+              data-desc="Join our growing team at Foodieland! We're looking for a passionate communications assistant to help share our love of food with the world. This role involves content creation, social media management, and community engagement. Perfect for someone who loves food, writing, and connecting with people.">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=300&fit=crop" alt="We're Hiring a Communications Assistant!" />
+              </div>
+              <div class="article-content">
+                <h3 class="article-title">We're Hiring a Communications Assistant!</h3>
+                <p class="article-description">
+                  Join our growing team at Foodieland! We're looking for a passionate communications assistant to help share our love of food with the world through content creation and community engagement.
+                </p>
+                <div class="article-meta">
+                  <div class="article-author">
+                    <img src="https://i.pravatar.cc/40?img=6" alt="Albert Flores" class="author-avatar-small" />
+                    <span class="author-name-small">Albert Flores</span>
+                  </div>
+                  <span class="article-date">12 November 2021</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Pagination -->
+            <div class="blog-pagination">
+              <button class="pagination-btn active">1</button>
+              <button class="pagination-btn">2</button>
+              <button class="pagination-btn">3</button>
+              <button class="pagination-btn">4</button>
+              <button class="pagination-btn">5</button>
+              <span class="pagination-dots">...</span>
+              <button class="pagination-btn pagination-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column - Sidebar -->
+          <aside class="blog-sidebar">
+            <h2 class="sidebar-title">Tasty Recipes</h2>
+            
+            <!-- Sidebar Recipe 1 -->
+            <div class="sidebar-recipe-item">
+              <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=150&h=150&fit=crop" alt="Chicken Meatballs" class="sidebar-recipe-image" />
+              <div class="sidebar-recipe-info">
+                <h4 class="sidebar-recipe-title">Chicken Meatballs with Cream Cheese</h4>
+                <p class="sidebar-recipe-author">By Andreas Paula</p>
+              </div>
+            </div>
+
+            <!-- Sidebar Recipe 2 -->
+            <div class="sidebar-recipe-item">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=150&h=150&fit=crop" alt="Traditional Bolognaise Ragu" class="sidebar-recipe-image" />
+              <div class="sidebar-recipe-info">
+                <h4 class="sidebar-recipe-title">Traditional Bolognaise Ragu</h4>
+                <p class="sidebar-recipe-author">By Andreas Paula</p>
+              </div>
+            </div>
+
+            <!-- Sidebar Recipe 3 -->
+            <div class="sidebar-recipe-item">
+              <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=150&h=150&fit=crop" alt="Pork and Chive Chinese Dumplings" class="sidebar-recipe-image" />
+              <div class="sidebar-recipe-info">
+                <h4 class="sidebar-recipe-title">Pork and Chive Chinese Dumplings</h4>
+                <p class="sidebar-recipe-author">By Andreas Paula</p>
+              </div>
+            </div>
+
+            <!-- Sidebar Ad Card -->
+            <div class="sidebar-ad-card">
+              <p class="ad-text">Don't forget to eat healthy food</p>
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=300&fit=crop" alt="Healthy Food" class="ad-food-image" />
+              <p class="ad-website">www.foodieland.com</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <!-- Blog Articles Section End -->
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+               <a class="navbar-brand" href="index.html">
+            <img class="logoImg" src="/images/home/logo.svg" alt="Logo" />
+          </a>
+            <p class="footer-description">Lorem ipsum dolor sit amet, consectetuipiscing elit,</p>
+          </div>
+          <nav class="footer-nav">
+            <a href="recipes.html" class="footer-link">Recipes</a>
+            <a href="blog.html" class="footer-link">Blog</a>
+            <a href="contact-us.html" class="footer-link">Contact</a>
+            <a href="about-us.html" class="footer-link">About us</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            © 2020 Flowbase. Powered by <span class="webflow">Webflow</span>
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- NavBar Js  -->
+    <script>
+      const navbar = document.querySelector(".glass-navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+
+    <!-- Pagination Js -->
+    <script>
+      const paginationBtns = document.querySelectorAll('.pagination-btn:not(.pagination-next)');
+      const nextBtn = document.querySelector('.pagination-next');
+
+      paginationBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all buttons
+          paginationBtns.forEach(b => b.classList.remove('active'));
+          // Add active class to clicked button
+          btn.classList.add('active');
+          
+          // Scroll to top of articles section smoothly
+          document.querySelector('.blog-articles-section').scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          });
+        });
+      });
+
+      // Next button functionality
+      nextBtn.addEventListener('click', () => {
+        const currentActive = document.querySelector('.pagination-btn.active');
+        const currentPage = parseInt(currentActive.textContent);
+        
+        // Find next page button (if exists)
+        paginationBtns.forEach(btn => {
+          if (parseInt(btn.textContent) === currentPage + 1) {
+            // Remove active from current
+            currentActive.classList.remove('active');
+            // Add active to next
+            btn.classList.add('active');
+            
+            // Scroll to top of articles section smoothly
+            document.querySelector('.blog-articles-section').scrollIntoView({ 
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Function to navigate to blog post page
+      function goToBlogPost(articleData) {
+        // Create URL parameters
+        const params = new URLSearchParams();
+        params.set('title', articleData.title || '');
+        params.set('image', articleData.image || '');
+        params.set('author', articleData.author || '');
+        params.set('avatar', articleData.avatar || '');
+        params.set('date', articleData.date || '');
+        params.set('desc', articleData.desc || '');
+        
+        const url = 'blog-post.html?' + params.toString();
+        window.location.href = url;
+      }
+
+      // Setup article click listeners
+      function setupArticleListeners() {
+        const articleCards = document.querySelectorAll('.blog-article-card');
+        
+        articleCards.forEach((card, index) => {
+          card.addEventListener('click', function(e) {
+            const articleData = {
+              title: card.getAttribute('data-title'),
+              image: card.getAttribute('data-image'),
+              author: card.getAttribute('data-author'),
+              avatar: card.getAttribute('data-avatar'),
+              date: card.getAttribute('data-date'),
+              desc: card.getAttribute('data-desc')
+            };
+            
+            goToBlogPost(articleData);
+          });
+        });
+      }
+
+      // Run when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupArticleListeners);
+      } else {
+        setupArticleListeners();
+      }
+    </script>
+  </body>
+</html>

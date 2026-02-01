@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodland</title>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/responsive/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="">
+      <!-- NavBar Section Start -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top bg-body-white glass-navbar"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img class="logoImg" src="/images/home/logo.svg" alt="Logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/recipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about-us.html">About us</a>
+              </li>
+            </ul>
+             <div class="nav-icon">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!-- NavBar Section End -->
+
+      <!-- Hero Section Start -->
+      <div class="slider-container">
+        <div class="image-slider" id="imageSlider">
+          <img class="slide" src="/images/hero/hero.png" alt="Hero Image" />
+          <img class="slide" src="/images/hero/hero.png" alt="Hero Image" />
+          <img class="slide" src="/images/hero/hero.png" alt="Hero Image" />
+        </div>
+      </div>
+      <!-- Hero Section End -->
+
+      <!-- Categories Section Start -->
+      <section class="categories-section">
+        <div class="categories-header">
+          <h2 class="categories-title">Categories</h2>
+          <button class="view-all-btn">View All Categories</button>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categories1.png" alt="Breakfast" />
+            </div>
+            <h3 class="category-name">Breakfast</h3>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categories2.png" alt="Vegan" />
+            </div>
+            <h3 class="category-name">Vegan</h3>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categories3.png" alt="Meat" />
+            </div>
+            <h3 class="category-name">Meat</h3>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categories4.png" alt="Dessert" />
+            </div>
+            <h3 class="category-name">Dessert</h3>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categorise5.png" alt="Lunch" />
+            </div>
+            <h3 class="category-name">Lunch</h3>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <img src="/images/categories/categorise6.png" alt="Chocolate" />
+            </div>
+            <h3 class="category-name">Chocolate</h3>
+          </div>
+        </div>
+      </section>
+      <!-- Categories Section End -->
+
+      <!-- Recipes Section Start -->
+      <section class="recipes-section">
+        <div class="recipes-header">
+          <h2 class="recipes-title">Simple and tasty recipes</h2>
+          <p class="recipes-description">
+            Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+          </p>
+        </div>
+        <div class="recipes-grid">
+          <!-- Recipe Card 1 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes1.png" alt="Big and Juicy Wagyu Beef Cheeseburger" />
+              <button class="favorite-btn active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Snack
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 2 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes2.png" alt="Fresh Lime Roasted Salmon" />
+              <button class="favorite-btn">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Fish
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 3 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes3.png" alt="Strawberry Oatmeal Pancake" />
+              <button class="favorite-btn">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Strawberry Oatmeal Pancake with Honey Syrup</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Breakfast
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 4 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes4.png" alt="Fresh and Healthy Mixed Salad" />
+              <button class="favorite-btn active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 5 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes5.png" alt="Chicken Meatballs" />
+              <button class="favorite-btn">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Chicken Meatballs with Cream Cheese</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Meat
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotional Card -->
+          <div class="recipe-card promo-card">
+            <div class="promo-content">
+              <p class="promo-text">Don't forget to eat healthy food</p>
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop" alt="Healthy Food" class="promo-image" />
+              <a href="#" class="promo-link">www.foodieland.com</a>
+            </div>
+          </div>
+
+          <!-- Recipe Card 6 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes6.png" alt="Fruity Pancake" />
+              <button class="favorite-btn active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">Fruity Pancake with Orange & Blueberry</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Sweet
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 7 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes7.png" alt="One Pot Chicken" />
+              <button class="favorite-btn">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">The Best Easy One Pot Chicken and Rice</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Snack
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 8 -->
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="/images/recipes/recipes8.png" alt="Creamy Chicken Pasta" />
+              <button class="favorite-btn">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="recipe-content">
+              <h3 class="recipe-title">The Creamiest Creamy Chicken and Bacon Pasta</h3>
+              <div class="recipe-meta">
+                <span class="recipe-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="recipe-category">
+                  <i class="fa-solid fa-utensils"></i> Noodles
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Recipes Section End -->
+
+      <!-- Chef Section Start -->
+      <section class="chef-section">
+        <div class="chef-container">
+          <div class="chef-content">
+            <h2 class="chef-title">Everyone can be a chef in their own kitchen</h2>
+            <p class="chef-description">
+              Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+            </p>
+            <a href="#" class="chef-btn">Learn More</a>
+          </div>
+          <div class="chef-image-wrapper">
+            <div class="chef-bg-circle"></div>
+            <img src="/images/kitchen/kitchen.png" alt="Chef" class="chef-main-image" />
+            
+            <!-- Floating Food Items -->
+            <img src="/images/categories/categories3.png" alt="Meat" class="floating-food food-1" />
+            <img src="/images/kitchen/tomato.png" alt="Onion" class="floating-food food-2" />
+            <img src="/images/kitchen/onion.png" alt="Vegetables" class="floating-food food-3" />
+            <img src="/images/kitchen/leafy-greens.png" alt="Tomato" class="floating-food food-4" />
+          </div>
+        </div>
+      </section>
+      <!-- Chef Section End -->
+
+      <!-- Instagram Section Start -->
+      <section class="instagram-section">
+        <div class="instagram-header">
+          <h2 class="instagram-title">Check out @foodieland on Instagram</h2>
+          <p class="instagram-description">
+            Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+          </p>
+        </div>
+        <div class="instagram-grid">
+          <!-- Instagram Post 1 -->
+          <div class="instagram-post">
+            <div class="post-header">
+              <div class="post-profile">
+                
+                  <img src="/images/instagram/instagram-logo.svg" alt="Instagram Logo" class="profile-avatar"/>
+                
+                <div class="profile-info">
+                  <span class="profile-name">Foodieland.</span>
+                  <span class="profile-location">Tokyo, Japan</span>
+                </div>
+              </div>
+              <button class="post-menu">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+            <div class="post-image">
+              <img src="/images/instagram/instagram1.png" alt="Food Post" />
+            </div>
+            <div class="post-actions">
+              <div class="action-buttons">
+                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-comment"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-paper-plane"></i></button>
+              </div>
+              <button class="action-btn"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            <div class="post-likes">
+              Liked by <strong>craig_love</strong> and <strong>44,686</strong> others
+            </div>
+            <div class="post-caption">
+              <strong>Foodieland.</strong> The vegetables dishes need to have certain vitamin for those people
+            </div>
+            <div class="post-time">September 19</div>
+          </div>
+
+          <!-- Instagram Post 2 -->
+          <div class="instagram-post">
+            <div class="post-header">
+              <div class="post-profile">
+                 <img src="/images/instagram/instagram-logo.svg" alt="Instagram Logo" class="profile-avatar"/>
+                <div class="profile-info">
+                  <span class="profile-name">Foodieland.</span>
+                  <span class="profile-location">Tokyo, Japan</span>
+                </div>
+              </div>
+              <button class="post-menu">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+            <div class="post-image">
+              <img src="/images/instagram/instagram2.png" alt="Food Post" />
+            </div>
+            <div class="post-actions">
+              <div class="action-buttons">
+                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-comment"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-paper-plane"></i></button>
+              </div>
+              <button class="action-btn"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            <div class="post-likes">
+              Liked by <strong>craig_love</strong> and <strong>44,686</strong> others
+            </div>
+            <div class="post-caption">
+              <strong>Foodieland.</strong> Sweet food with natural ingredients. Enjoy your meal!
+            </div>
+            <div class="post-time">September 19</div>
+          </div>
+
+          <!-- Instagram Post 3 -->
+          <div class="instagram-post">
+            <div class="post-header">
+              <div class="post-profile">
+                <img src="/images/instagram/instagram-logo.svg" alt="Instagram Logo" class="profile-avatar"/>
+                <div class="profile-info">
+                  <span class="profile-name">Foodieland.</span>
+                  <span class="profile-location">Tokyo, Japan</span>
+                </div>
+              </div>
+              <button class="post-menu">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+            <div class="post-image">
+              <img src="/images/instagram/instagram3.png" alt="Food Post" />
+            </div>
+            <div class="post-actions">
+              <div class="action-buttons">
+                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-comment"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-paper-plane"></i></button>
+              </div>
+              <button class="action-btn"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            <div class="post-likes">
+              Liked by <strong>craig_love</strong> and <strong>44,686</strong> others
+            </div>
+            <div class="post-caption">
+              <strong>Foodieland.</strong> What are you doing before start cooking?
+            </div>
+            <div class="post-time">September 19</div>
+          </div>
+
+          <!-- Instagram Post 4 -->
+          <div class="instagram-post">
+            <div class="post-header">
+              <div class="post-profile">
+                 <img src="/images/instagram/instagram-logo.svg" alt="Instagram Logo" class="profile-avatar"/>
+                <div class="profile-info">
+                  <span class="profile-name">Foodieland.</span>
+                  <span class="profile-location">Tokyo, Japan</span>
+                </div>
+              </div>
+              <button class="post-menu">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+            <div class="post-image">
+              <img src="/images/instagram/instagram4.png" alt="Food Post" />
+            </div>
+            <div class="post-actions">
+              <div class="action-buttons">
+                <button class="action-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-comment"></i></button>
+                <button class="action-btn"><i class="fa-regular fa-paper-plane"></i></button>
+              </div>
+              <button class="action-btn"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            <div class="post-likes">
+              Liked by <strong>craig_love</strong> and <strong>44,686</strong> others
+            </div>
+            <div class="post-caption">
+              <strong>Foodieland.</strong> Steak never be wrong. It's available for you
+            </div>
+            <div class="post-time">September 19</div>
+          </div>
+        </div>
+        <div class="instagram-cta">
+          <a href="https://instagram.com" target="_blank" class="instagram-btn">
+            Visit Our Instagram
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </section>
+      <!-- Instagram Section End -->
+
+      <!-- Delicious Recipes Section Start -->
+      <section class="delicious-section">
+        <div class="delicious-header">
+          <h2 class="delicious-title">Try this delicious recipe to make your day</h2>
+          <p class="delicious-description">
+            Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+          </p>
+        </div>
+        <div class="delicious-grid">
+          <!-- Recipe Card 1 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" alt="Mixed Tropical Fruit Salad" />
+              <button class="delicious-favorite active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Mixed Tropical Fruit Salad with Superfood Boosts</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 2 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop" alt="Wagyu Beef Cheeseburger" />
+              <button class="delicious-favorite">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Western
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 3 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?w=400&h=300&fit=crop" alt="Japanese Fried Rice" />
+              <button class="delicious-favorite active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Healthy Japanese Fried Rice with Asparagus</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 4 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop" alt="Vegetarian Taco" />
+              <button class="delicious-favorite">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Cauliflower Walnut Vegetarian Taco Meat</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Eastern
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 5 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=400&h=300&fit=crop" alt="Chicken Salad" />
+              <button class="delicious-favorite active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Rainbow Chicken Salad with Almond Honey Mustard Dressing</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Healthy
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 6 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&h=300&fit=crop" alt="Spicy Sandwiches" />
+              <button class="delicious-favorite">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Barbeque Spicy Sandwiches with Chips</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Snack
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 7 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=400&h=300&fit=crop" alt="Vegan Lettuce Wraps" />
+              <button class="delicious-favorite">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Firecracker Vegan Lettuce Wraps - Spicy!</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Seafood
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Card 8 -->
+          <div class="delicious-card">
+            <div class="delicious-image">
+              <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop" alt="Chicken Ramen Soup" />
+              <button class="delicious-favorite active">
+                <i class="fa-solid fa-heart"></i>
+              </button>
+            </div>
+            <div class="delicious-content">
+              <h3 class="delicious-recipe-title">Chicken Ramen Soup with Mushroom</h3>
+              <div class="delicious-meta">
+                <span class="delicious-time">
+                  <i class="fa-regular fa-clock"></i> 30 Minutes
+                </span>
+                <span class="delicious-category">
+                  <i class="fa-solid fa-utensils"></i> Japanese
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Delicious Recipes Section End -->
+
+      <!-- Newsletter Section Start -->
+      <section class="newsletter-section">
+        <div class="newsletter-container">
+          <div class="newsletter-decoration left-decoration">
+            <img src="/images/newsletter/left-image.png" alt="Fresh Vegetables" class="decoration-img" />
+          </div>
+          
+          <div class="newsletter-content">
+            <h2 class="newsletter-title">Deliciousness to your inbox</h2>
+            <p class="newsletter-description">
+              Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+            </p>
+            <form class="newsletter-form">
+              <input type="email" class="newsletter-input" placeholder="Your email address..." required />
+              <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="newsletter-decoration right-decoration">
+            <img src="/images/newsletter/right-image.png" alt="Healthy Salad" class="decoration-img" />
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Section End -->
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+           <a href="index.html">
+            <img src="/images/home/logo.svg" alt="Logo"/>
+           </a>
+            <p class="footer-description">Lorem ipsum dolor sit amet, consectetuipiscing elit,</p>
+          </div>
+          <nav class="footer-nav">
+            <a href="recipes.html" class="footer-link">Recipes</a>
+            <a href="blog.html" class="footer-link">Blog</a>
+            <a href="contact-us.html" class="footer-link">Contact</a>
+            <a href="about-us.html" class="footer-link">About us</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            © 2020 Flowbase. Powered by <span class="webflow">Webflow</span>
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- NavBar Js  -->
+    <script>
+      const navbar = document.querySelector(".glass-navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+
+    <!-- Hero Slider Js -->
+    <script>
+      const slider = document.getElementById("imageSlider");
+      const originalSlides = Array.from(slider.children);
+      let gap = 30;
+      
+      // Adjust gap based on screen size
+      function updateGap() {
+        const screenWidth = window.innerWidth;
+        if (screenWidth < 320) gap = 7;
+        else if (screenWidth < 360) gap = 8;
+        else if (screenWidth < 375) gap = 9;
+        else if (screenWidth < 414) gap = 10;
+        else if (screenWidth < 480) gap = 10;
+        else if (screenWidth < 576) gap = 12;
+        else if (screenWidth < 768) gap = 15;
+        else if (screenWidth < 992) gap = 18;
+        else if (screenWidth < 1200) gap = 22;
+        else if (screenWidth < 1380) gap = 25;
+        else gap = 30;
+      }
+      
+      // Clone slides multiple times for true infinite loop
+      const cloneCount = 4;
+      for (let i = 0; i < cloneCount; i++) {
+        originalSlides.forEach(slide => {
+          slider.appendChild(slide.cloneNode(true));
+        });
+      }
+      
+      const allSlides = Array.from(slider.children);
+      let currentIndex = originalSlides.length; // Start from second set
+      let isTransitioning = false;
+      let autoSlideInterval;
+
+      function getSlideWidth() {
+        return allSlides[0].offsetWidth + gap;
+      }
+
+      function getCenterOffset() {
+        const containerWidth = document.querySelector('.slider-container').offsetWidth;
+        const slideWidth = allSlides[0].offsetWidth;
+        return Math.max(0, (containerWidth - slideWidth) / 2);
+      }
+
+      function updateSlider(animate = true) {
+        updateGap(); // Update gap based on current screen size
+        const slideWidth = getSlideWidth();
+        const centerOffset = getCenterOffset();
+        
+        // For mobile devices, center the active slide
+        const isMobile = window.innerWidth < 768;
+        let offset;
+        
+        if (isMobile) {
+          // Center the active slide on mobile
+          offset = (currentIndex * slideWidth) - centerOffset;
+        } else {
+          // Use original offset calculation for desktop
+          offset = (currentIndex * slideWidth) - centerOffset + 50;
+        }
+        
+        slider.style.transition = animate ? "transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)" : "none";
+        slider.style.transform = `translateX(-${offset}px)`;
+        
+        // Update active states
+        allSlides.forEach((slide, i) => {
+          slide.classList.remove("active");
+          if (i === currentIndex) {
+            slide.classList.add("active");
+          }
+        });
+      }
+
+      function slideNext() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        
+        currentIndex++;
+        updateSlider(true);
+
+        // Check if we need to reset (when we reach the third set)
+        const totalOriginalSlides = originalSlides.length;
+        if (currentIndex >= totalOriginalSlides * 3) {
+          setTimeout(() => {
+            // Jump back to the equivalent position in the second set
+            currentIndex = totalOriginalSlides;
+            updateSlider(false);
+            
+            // Small delay to ensure DOM updates
+            requestAnimationFrame(() => {
+              isTransitioning = false;
+            });
+          }, 700);
+        } else {
+          setTimeout(() => {
+            isTransitioning = false;
+          }, 700);
+        }
+      }
+
+      function startAutoSlide() {
+        if (autoSlideInterval) clearInterval(autoSlideInterval);
+        autoSlideInterval = setInterval(slideNext, 3500);
+      }
+
+      function stopAutoSlide() {
+        if (autoSlideInterval) clearInterval(autoSlideInterval);
+      }
+
+      // Touch/swipe support for mobile
+      let touchStartX = 0;
+      let touchEndX = 0;
+      let touchStartY = 0;
+      let touchEndY = 0;
+
+      function handleTouchStart(e) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        stopAutoSlide();
+      }
+
+      function handleTouchMove(e) {
+        // Prevent default scrolling if horizontal swipe is detected
+        const touchCurrentX = e.touches[0].clientX;
+        const touchCurrentY = e.touches[0].clientY;
+        const deltaX = Math.abs(touchCurrentX - touchStartX);
+        const deltaY = Math.abs(touchCurrentY - touchStartY);
+        
+        if (deltaX > deltaY) {
+          e.preventDefault();
+        }
+      }
+
+      function handleTouchEnd(e) {
+        touchEndX = e.changedTouches[0].clientX;
+        touchEndY = e.changedTouches[0].clientY;
+        
+        const deltaX = touchStartX - touchEndX;
+        const deltaY = Math.abs(touchStartY - touchEndY);
+        
+        // Only trigger swipe if horizontal movement is greater than vertical
+        if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > deltaY) {
+          if (deltaX > 0) {
+            // Swipe left - next slide
+            slideNext();
+          }
+          // Note: We only support forward swiping to maintain infinite loop simplicity
+        }
+        
+        // Restart auto-slide after touch interaction
+        setTimeout(startAutoSlide, 1000);
+      }
+
+      // Add touch event listeners
+      slider.addEventListener('touchstart', handleTouchStart, { passive: false });
+      slider.addEventListener('touchmove', handleTouchMove, { passive: false });
+      slider.addEventListener('touchend', handleTouchEnd, { passive: true });
+
+      // Pause auto-slide on hover (desktop)
+      slider.addEventListener('mouseenter', stopAutoSlide);
+      slider.addEventListener('mouseleave', startAutoSlide);
+
+      // Handle window resize
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          updateSlider(false);
+        }, 100);
+      });
+
+      // Initialize
+      window.addEventListener('load', () => {
+        updateSlider(false);
+        startAutoSlide();
+      });
+
+      // Handle visibility change (pause when tab is not active)
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          stopAutoSlide();
+        } else {
+          startAutoSlide();
+        }
+      });
+    </script>
+
+    <!-- Recipe Favorite Toggle Js -->
+    <script>
+      // Toggle favorite heart icons for all recipe sections
+      const allFavoriteButtons = document.querySelectorAll('.favorite-btn, .delicious-favorite');
+      
+      allFavoriteButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.stopPropagation();
+          this.classList.toggle('active');
+        });
+      });
+    </script>
+
+   
+</html>

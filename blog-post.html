@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Blog Post - Foodland</title>
+     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/responsive/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Update page title immediately from URL parameters
+      const headUrlParams = new URLSearchParams(window.location.search);
+      const headPostTitle = headUrlParams.get('title');
+      if (headPostTitle) {
+        document.title = headPostTitle + ' - Foodland';
+      }
+    </script>
+  </head>
+  <body>
+    <div class="">
+      <!-- NavBar Section Start -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top bg-body-white glass-navbar"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img class="logoImg" src="/images/home/logo.svg" alt="Logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/recipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about-us.html">About us</a>
+              </li>
+            </ul>
+             <div class="nav-icon">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!-- NavBar Section End -->
+      <!-- Blog Post Section Start -->
+      <section class="blog-post-section">
+        <div class="blog-post-container">
+          <!-- Post Header -->
+          <div class="post-header-section">
+            <h1 class="post-main-title" id="post-title">Full Guide to Becoming a Professional Chef</h1>
+            
+            <div class="post-author-meta">
+              <div class="post-author-info">
+                <img src="https://i.pravatar.cc/60?img=3" alt="Author" class="post-author-avatar" id="post-author-avatar" />
+                <span class="post-author-name" id="post-author-name">John Smith</span>
+              </div>
+              <span class="post-publish-date" id="post-date">15 March 2022</span>
+            </div>
+          </div>
+
+          <!-- Post Description -->
+          <div class="post-intro-description" id="post-intro-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.</p>
+          </div>
+
+          <!-- Featured Image -->
+          <div class="post-featured-image">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1200&h=600&fit=crop" alt="Post Image" id="post-main-image" />
+          </div>
+
+          <!-- Post Content with Sidebar -->
+          <div class="post-content-wrapper">
+            <!-- Main Content -->
+            <div class="post-main-content">
+              <!-- Post Description -->
+              <div class="post-description" id="post-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce sed luctus quam. Suspendisse et consequat ante. Proin ut eros a mauris molestie scelerisque. Sed ornare sem at ante placerat, nec luctus nisl suscipit.</p>
+              </div>
+
+              <!-- Post Questions/Sections -->
+              <div class="post-sections">
+                <div class="post-question-section">
+                  <h3 class="question-title">How did you start out in the food industry?</h3>
+                  <p class="question-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex et suscipit.</p>
+                </div>
+
+                <div class="post-question-section">
+                  <h3 class="question-title">What do you like most about your job?</h3>
+                  <p class="question-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex et suscipit.</p>
+                </div>
+
+                <div class="post-question-section">
+                  <h3 class="question-title">Do you cook at home on your days off?</h3>
+                  <div class="question-image">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=900&h=500&fit=crop" alt="Cooking at home" />
+                  </div>
+                  <p class="question-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex et suscipit.</p>
+                </div>
+
+                <div class="post-question-section">
+                  <h3 class="question-title">What is the biggest misconception that people have about being a professional chef?</h3>
+                  <p class="question-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex et suscipit.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar Share Section -->
+            <aside class="post-share-sidebar">
+              <div class="share-sticky">
+                <h4 class="share-sidebar-title">SHARE THIS ON:</h4>
+                <div class="share-sidebar-buttons">
+                  <a href="#" class="share-sidebar-btn facebook-btn">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="share-sidebar-btn twitter-btn">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#" class="share-sidebar-btn instagram-btn">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </aside>
+          </div>
+
+        <!-- Newsletter Section Start -->
+      <section class="newsletter-section">
+        <div class="newsletter-container">
+          <div class="newsletter-decoration left-decoration">
+            <img src="/images/newsletter/left-image.png" alt="Fresh Vegetables" class="decoration-img" />
+          </div>
+          
+          <div class="newsletter-content">
+            <h2 class="newsletter-title">Deliciousness to your inbox</h2>
+            <p class="newsletter-description">
+              Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+            </p>
+            <form class="newsletter-form">
+              <input type="email" class="newsletter-input" placeholder="Your email address..." required />
+              <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="newsletter-decoration right-decoration">
+            <img src="/images/newsletter/right-image.png" alt="Healthy Salad" class="decoration-img" />
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Section End -->
+
+          <!-- Check out recipes section -->
+          <div class="post-recipes-section">
+            <h2 class="post-recipes-title">Check out the delicious recipe</h2>
+            <div class="post-recipes-grid">
+              <!-- Recipe 1 -->
+              <div class="post-recipe-card">
+                <div class="post-recipe-image">
+                  <img src="/images/blog-post-page/recipes/recipes-1.png" alt="Mixed Tropical Fruit Salad" />
+                  <button class="post-recipe-favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </div>
+                <div class="post-recipe-content">
+                  <h4 class="post-recipe-name">Mixed Tropical Fruit Salad with Superfood Boosts</h4>
+                  <div class="post-recipe-meta">
+                    <span class="post-recipe-time">
+                      <i class="fa-regular fa-clock"></i>
+                      30 Minutes
+                    </span>
+                    <span class="post-recipe-category">
+                      <i class="fa-solid fa-utensils"></i>
+                      Healthy
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recipe 2 -->
+              <div class="post-recipe-card">
+                <div class="post-recipe-image">
+                  <img src="/images/blog-post-page/recipes/recipes-2.png" alt="Big and Juicy Wagyu Beef Cheeseburger" />
+                  <button class="post-recipe-favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </div>
+                <div class="post-recipe-content">
+                  <h4 class="post-recipe-name">Big and Juicy Wagyu Beef Cheeseburger</h4>
+                  <div class="post-recipe-meta">
+                    <span class="post-recipe-time">
+                      <i class="fa-regular fa-clock"></i>
+                      30 Minutes
+                    </span>
+                    <span class="post-recipe-category">
+                      <i class="fa-solid fa-utensils"></i>
+                      Western
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recipe 3 -->
+              <div class="post-recipe-card">
+                <div class="post-recipe-image">
+                  <img src="/images/blog-post-page/recipes/recipes-3.png" alt="Healthy Japanese Fried Rice" />
+                  <button class="post-recipe-favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </div>
+                <div class="post-recipe-content">
+                  <h4 class="post-recipe-name">Healthy Japanese Fried Rice with Asparagus</h4>
+                  <div class="post-recipe-meta">
+                    <span class="post-recipe-time">
+                      <i class="fa-regular fa-clock"></i>
+                      30 Minutes
+                    </span>
+                    <span class="post-recipe-category">
+                      <i class="fa-solid fa-utensils"></i>
+                      Healthy
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recipe 4 -->
+              <div class="post-recipe-card">
+                <div class="post-recipe-image">
+                  <img src="/images/blog-post-page/recipes/recipes-4.png" alt="Cauliflower Walnut Vegetarian Taco" />
+                  <button class="post-recipe-favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </div>
+                <div class="post-recipe-content">
+                  <h4 class="post-recipe-name">Cauliflower Walnut Vegetarian Taco Meat</h4>
+                  <div class="post-recipe-meta">
+                    <span class="post-recipe-time">
+                      <i class="fa-regular fa-clock"></i>
+                      30 Minutes
+                    </span>
+                    <span class="post-recipe-category">
+                      <i class="fa-solid fa-utensils"></i>
+                      Eastern
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blog Post Section End -->
+
+      <!-- Footer Start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+              <a class="navbar-brand" href="index.html">
+            <img class="logoImg" src="/images/home/logo.svg" alt="Logo" />
+          </a>
+            <p class="footer-description">Lorem ipsum dolor sit amet, consectetuipiscing elit,</p>
+          </div>
+          <nav class="footer-nav">
+            <a href="recipes.html" class="footer-link">Recipes</a>
+            <a href="blog.html" class="footer-link">Blog</a>
+            <a href="contact-us.html" class="footer-link">Contact</a>
+            <a href="/about-us.html" class="footer-link">About us</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            © 2020 Flowbase. Powered by <span class="webflow">Webflow</span>
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- NavBar Js  -->
+    <script>
+      const navbar = document.querySelector(".glass-navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+
+    <!-- Load Blog Post Data -->
+    <script>
+      // Function to get URL parameter
+      function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+      
+      // Function to update blog post content
+      function updateBlogPostContent() {
+        // Get parameters
+        const title = getUrlParameter('title');
+        const image = getUrlParameter('image');
+        const author = getUrlParameter('author');
+        const avatar = getUrlParameter('avatar');
+        const date = getUrlParameter('date');
+        const desc = getUrlParameter('desc');
+
+        // If no title parameter, keep default content
+        if (!title) {
+          return;
+        }
+
+        // Update page title
+        if (title) {
+          document.title = title + ' - Foodland';
+        }
+        
+        // Update post title
+        const postTitleEl = document.getElementById('post-title');
+        if (postTitleEl && title) {
+          postTitleEl.textContent = title;
+        }
+        
+        // Update main image
+        const postImageEl = document.getElementById('post-main-image');
+        if (postImageEl && image) {
+          postImageEl.src = image;
+          postImageEl.alt = title || 'Blog post image';
+        }
+        
+        // Update author name
+        const authorNameEl = document.getElementById('post-author-name');
+        if (authorNameEl && author) {
+          authorNameEl.textContent = author;
+        }
+        
+        // Update author avatar
+        const authorAvatarEl = document.getElementById('post-author-avatar');
+        if (authorAvatarEl && avatar) {
+          authorAvatarEl.src = avatar;
+          authorAvatarEl.alt = author || 'Author avatar';
+        }
+        
+        // Update date
+        const dateEl = document.getElementById('post-date');
+        if (dateEl && date) {
+          dateEl.textContent = date;
+        }
+        
+        // Update intro description
+        const introDescEl = document.getElementById('post-intro-description');
+        if (introDescEl && desc) {
+          introDescEl.innerHTML = '<p>' + desc + '</p>';
+        }
+        
+        // Update main description
+        const mainDescEl = document.getElementById('post-description');
+        if (mainDescEl && desc) {
+          mainDescEl.innerHTML = '<p>' + desc + '</p>';
+        }
+      }
+
+      // Run the update function when page loads
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', updateBlogPostContent);
+      } else {
+        // DOM already loaded
+        updateBlogPostContent();
+      }
+      
+      // Also run after a small delay to ensure everything is loaded
+      setTimeout(updateBlogPostContent, 100);
+
+      // Recipe favorite buttons functionality
+      document.addEventListener('DOMContentLoaded', () => {
+        const favoriteButtons = document.querySelectorAll('.post-recipe-favorite');
+        
+        favoriteButtons.forEach(button => {
+          button.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const icon = button.querySelector('i');
+            
+            if (button.classList.contains('active')) {
+              button.classList.remove('active');
+              icon.classList.remove('fa-solid');
+              icon.classList.add('fa-regular');
+            } else {
+              button.classList.add('active');
+              icon.classList.remove('fa-regular');
+              icon.classList.add('fa-solid');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
